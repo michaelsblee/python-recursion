@@ -10,4 +10,10 @@ Robin Andrews - https://compucademy.net/
 
 
 # Base Case and movement towards it.
+count = 1
 
+while True:
+    if count > 10:
+        break
+    print(count)
+    count += 1
